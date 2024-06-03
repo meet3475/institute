@@ -18,12 +18,10 @@ router.post(
     subcoursesControllere.addsubcourses
 )
 
-
 router.put(
     '/update-subcourses/:subcourses_id',
     subcoursesControllere.updatesubcourses
 )
-
 
 router.delete(
     '/delete-subcourses/:subcourses_id',
