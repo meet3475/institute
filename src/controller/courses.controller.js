@@ -5,7 +5,7 @@ const listcources = async (req, res) => {
     // console.log('list-cources');
     try {
         const cources = await Courses.find()
-        // console.log(cources);
+        console.log(cources);
 
         if (!cources || cources === 0) {
             res.status(404).json({
